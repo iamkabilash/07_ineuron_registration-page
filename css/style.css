@@ -67,7 +67,8 @@ input{
     width: 100%;
 }
 .email-input{
-    width: 30vw;
+    width:85%;
+    margin-right: 10px;
 }
 
 .row{
@@ -85,6 +86,7 @@ input{
     border: none;
     border-radius: 8px;
     margin-top: 15px;
+    cursor: pointer;
 }
 
 .btn-facebook{
@@ -92,4 +94,17 @@ input{
 }
 .btn-twitter{
     background-color: rgb(0, 187, 255);
+}
+
+.divider{
+    padding-top: 10px;
+}
+
+.btn-icon{
+    top: 50%;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    color: aliceblue;
+    margin-right: 5px;
 }
